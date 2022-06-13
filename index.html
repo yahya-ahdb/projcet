@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <!--bootsrap css-->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="asset/css/style.css"> 
+
+</head>
+<body>
+ <div class="container" >
+    <nav class="navber navber-expand-md navbar-dark bg-dark p-2 " >
+        <a href="" class="navbar-brand" href="#" >brand</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#x" ><span class="navbar-toggler-icon" ></span> </button>
+        <ul id="x" class="navbar-nav collapse navbar-collapse" >
+            <li class="nav-item"><a id="x" class="nav-link" >Home</a></li>
+
+            <li class="nav-item"><a id="x" class="nav-link" >About</a></li>
+
+            <li class="nav-item"><a id="x" class="nav-link" >Active</a></li>
+        </ul>
+
+
+    </nav>
+    
+</div >
+
+
+
+
+
+
+
+
+    <center>
+        <h1>Welcome In Restaurant</h1>
+   </center>
+    <div class="container">
+        <div class="row justify-content-evenly ">
+        
+        <span  class="col-md-2 bg-primary text-success text-center"><h4>Home</h4></span>
+        <span  class="col-md-2 bg-primary text-warning text-center"><h4>Sevvices</h4></span>
+        <span  class="col-md-2 bg-primary text-light text-center"><h4>Call us</h4></span>
+      
+        
+        </div>
+        
+    </div>
+    <br><center>
+        <div class="alert  alert-primary d-flex gap-2 ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+          </svg>
+    <span  class="m-0">Hi,This is Web Eating</span>
+</div>
+</div>
+        </center>
+        <div  class="container">
+            <div class="btn btn-group">
+            <button class="btn btn-outline-primary" >Order</button>
+            <button class="btn btn-outline-danger" >Cansel</button>
+            </div>
+            <div class="row bg-dark p-1">
+               <div class="col-8"> <button class="btn btn-outline-primary" >Order</button></div>
+               <div class="col-1" ><button class="btn btn-outline-danger" >Cansel</button></div>
+               <div class="col-2" ><button class="btn btn-outline-success" >Cansel</button></div>
+            </div>
+            <div class="row bg-primary p-1">
+                <div class="col text-center"> <button class="btn btn-outline-dark" >Order</button></div>
+                
+             </div>
+             <div class="row bg-dark p-1">
+                <div class="col text-start"> <button class="btn btn-outline-primary" >Order</button></div>
+                <div class="col text-center" ><button class="btn btn-outline-danger" >Cansel</button></div>
+                <div class="col text-end" ><button class="btn btn-outline-success" >Cansel</button></div>
+             </div>
+           
+
+        </div>
+        <br>
+        <div class="container">
+        <div style="width: 250px; margin-left:30px;" class="row" >
+            
+            <img  class="card-img-top" src="asset/imags/123.jpg" alt="">
+            <div class="card-body bg-dark ">
+                <h3 class="card-title text-warning m-1 ">Coffee</h3>
+                <p class="card-text text-light m-1" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor explicabo minima cum mollitia nemo laudantium minus. Voluptatum commodi, sit ex enim aliquid laborum, beatae nihil velit unde optio quas cumque.</p>
+                <a href="" class="btn btn-danger m-1" >Ddding</a>
+              
+            </div>
+
+        </div>
+        </div>
+
+        <div class="container" style="width:350px ; height: 250px; " >
+        <div id="c1" class="carousel slide"  >
+
+        <div class="carousel-inner " >
+            <div class="carousel-item active">
+                <img src="asset/imags/1.jpg" class="d-block w-100" alt="">
+            </div>
+        
+         <div class="carousel-item ">
+            <img src="asset/imags/12.jpg"class="d-block w-100" alt="">
+         </div>
+           
+             <div class="carousel-item ">
+                <img src="asset/imags/123.jpg"class="d-block w-100" alt="">
+             </div>
+        </div> 
+        <!--indicators-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#c1" data-bs-slide-to="0"class="active" ></button>
+            <button type="button" data-bs-target="#c1" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#c1" data-bs-slide-to="2" ></button>
+        
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#c1" data-bs-slide="prev" >
+            <span class="carousel-control-prev-icon" ></span>
+            <span class="visually-hidden" >pervious</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#c1" data-bs-slide="next" >
+            <span class="carousel-control-next-icon" ></span>
+            <span class="visually-hidden" >next</span>
+        </button>
+       
+    </div>
+   </div>
+
+   <div class="container">
+
+        <div class="dropdown">
+
+        <button class="btn btn-danger  dropdown-toggle" data-bs-toggle="dropdown" >dropdown list</button>    
+        
+        <ul class="dropdown-menu" >
+            <a class="dropdown-item" href="">yhaya</a>
+            <a class="dropdown-item" href="">yhaya</a>
+            <a class="dropdown-item" href="">yhaya</a>
+        </ul>
+
+</div>
+   </div>
+   <br>
+   <button class="btn btn-primary m-1 " data-bs-toggle="collapse"  data-bs-target="#x" >Enter The Button plase</button>
+   <div id="x" class="collapse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ut minima ipsum. Soluta quae vitae quis neque, laborum nesciunt sequi. Voluptas dolore laudantium qui totam provident amet perspiciatis molestiae officiis.</div>
+
+
+   <br>
+   <br>
+
+   <form action="" class="w-25 " >
+    <div class="form-group">
+        <label for="">Email</label>
+        <input class="form-control" type="email" placeholder="Email Address" max="10" min="4" required >
+    </div>
+    <div class="form-group">
+        <label for="">Password</label>
+        <input class="form-control" type="password" >
+    </div>
+    <div class="form-check">
+        <label for="">check me out</label>
+        <input class="form-check-input" type="checkbox">
+    </div>
+    <button type="submit" class="btn btn-warning" >submit</button>
+
+
+   </form>
+<br>
+<br>
+  
+
+<center> <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#mod" >Sing in</button></center>
+
+    <div id="mod" class="modal" >
+
+      <div class="modal-bialog" >
+        <div class="modal-content" >
+
+          <div class="modal-header">
+
+
+        <center>
+          <div class="modal-title" id="sing" >
+            <b>Sing in</b>
+            <button class="btn-close" data-bs-dismiss="modal" ></button>
+
+          </div>
+          <div class="modal-body">
+        <form class="w-25" action="" method="post">
+          
+          <input class="form-control" type="email" placeholder="Name@gmail.com" required  >
+          <br>
+          
+          <input class="form-control" type="password"  minlength="8" maxlength="16" placeholder="password" required  >
+          <br>
+          <button style="border-radius :25px;width: 75px; background-color:#ff9500;" type="submit" ><b>Submit</b></button>
+          <button style="border-radius :25px;width:75px ; background-color:#ff9500;" type="reset" ><b>Reset</b></button>
+        </form>
+      </div>
+      </center>
+      
+    
+      </div>
+      </div>
+      </div>
+
+
+
+    <!--bootstrap javascript-->
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+    <!--  js  -->
+    <script src="asset/js/main.js " ></script>
+</body>
+</html>
